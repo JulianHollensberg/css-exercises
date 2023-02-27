@@ -7,9 +7,24 @@ img {
   height: 100px;
 }
 
+.barberry, .chili, .pepper, .saffron{
+  flex-wrap: wrap;
+  flex-basis: 200px;
+  text-align: center;
+}
+
+.items{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
